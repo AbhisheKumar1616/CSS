@@ -1,0 +1,15 @@
+header div p{
+	color: green;
+}
+div p{
+	color: orange;
+}
+p{
+	color: yellow;
+}
+#id-style p{
+	color: pink;
+}
+.class-style p{
+	color: cyan;
+}

@@ -1,0 +1,53 @@
+#Outer-div{
+	/*width: 50vw;
+	height: auto;*/
+/*	for shrink*/
+	/*width: 500px;
+	height: 500px;*/
+/*	for grow*/
+	width: 200px;
+	height: 200px;
+	background-color: cyan;
+	display: flex;
+	flex-direction: row;
+/*	flex-wrap: wrap;*/
+/*	this proprety is used to put all content in one container*/
+}
+#Outer-div div{
+	height: 20px;
+	width: 20px;
+}
+
+#div1{
+	background-color: blue;
+	flex-shrink: 2;
+	flex-grow: 2;
+/*	width: 25vw;*/
+/*	order: 1;*/
+}
+#div2{
+	background-color: red;
+/*	width: 25vw;*/
+/*	order: 5;*/
+	flex-shrink: 1;
+	flex-grow: 1;
+}
+#div3{
+	background-color: orange;
+/*	width: 25vw;*/
+/*	order: -1;*/
+	flex-shrink: 3;
+	flex-grow: 3;
+}
+
+#div4{
+	background-color:pink;
+	flex-shrink: 4;
+	flex-grow: 4;
+}
+
+#div5{
+	background-color: black;
+	flex-shrink: 5;
+	flex-grow: 5;
+}

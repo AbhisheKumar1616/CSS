@@ -1,0 +1,58 @@
+/* Absolute unit
+#div1{
+	height: 100px;
+	width: 300px;
+	background-color: blue;
+}
+
+#div2{
+	height: 50px;
+	width: 150px ;
+	background-color: cyan;
+}*/
+
+/*Relative Units*/
+/*1> %*/
+/*#div1{
+	height: 100px;
+	width: 300px;
+	background-color: blue;
+}
+
+#div2{
+height and width relative to its parent tag div1
+	height: 50%;
+	width: 50% ;
+	background-color: cyan;
+}*/
+
+/*2> vh and vw*/
+/*#div1{
+	height: 100vh;
+	width: 100vh;
+	background-color: blue;
+}
+
+#div2{
+	height: 50%;
+	width: 50% ;
+	background-color: cyan;
+}*/
+
+/*3> rem*/
+html{
+	font-size: 30px;
+}
+/*rem is related to font size of html*/
+#div1{
+	height: 8rem;
+	width: 16rem;
+	background-color: blue;
+}
+
+#div2{
+/*em is related to parent h and w*/
+	height: 4em;
+	width: 8em ;
+	background-color: cyan;
+}

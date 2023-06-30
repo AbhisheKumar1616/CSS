@@ -1,0 +1,9 @@
+#hover-id:hover{
+	color: orange;
+}
+.hover-class:hover{
+	color: cyan;
+}
+h1:hover{
+	color: yellow;
+}

@@ -1,0 +1,43 @@
+/*using name directly*/
+div{
+	height: 200px;
+	width: 200px;
+	background-color: blue;
+}
+
+/*using hexadecimal*/
+div{
+	height: 200px;
+	width: 200px;
+	background-color: #392a79;
+}
+
+/*using rgb()*/
+div{
+	height: 200px;
+	width: 200px;
+	background-color: rgb(25, 200, 180);
+}
+
+/*using rgba()*/
+div{
+	height: 200px;
+	width: 200px;
+	background-color: rgba(25, 200, 180, 0.5);
+}
+
+/*using hsl()*/
+div{
+	height: 200px;
+	width: 200px;
+	background-color: hsl(250, 65%, 70%);
+/*1st parameter is digree 0=red, 120 green and 240 blue*/
+}
+
+
+/*using hsla()*/
+div{
+	height: 200px;
+	width: 200px;
+	background-color: hsla(250, 65%, 70%, 0.5);
+}

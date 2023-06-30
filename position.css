@@ -1,0 +1,76 @@
+#Outer-div1{
+	width: 700px;
+	height: 700px;
+	background-color: orange;
+}
+#inner-div1{
+	width: 200px;
+	height: 200px;
+	background-color: cyan;
+}
+
+#inner-inner{
+	width: 500px;
+	height: 50px;
+	background-color: hotpink;
+}
+/*Position - 1 by default*/
+/*#inner-div2{
+	width: 200px;
+	height: 200px;
+	background-color: red;
+	position: static;
+}*/
+
+/*Position - 2*/
+/*If parent also has position=relative and left=20px then this div will shift 40 px, 20+20 px*/
+/*#inner-div2{
+	width: 200px;
+	height: 200px;
+	background-color: red;
+	position: relative;
+	left: 20px;
+	top: 20px;
+}*/
+
+/*Position - 3*/
+/*If parent has position=relative and left=20px then this div will shift 40 px, 20+20 px w.r.t. parent position and paragraph will not come under the div*/
+/*If parent has position=abosolute and left=20px then this div will shift 40 px, 20+20 px w.r.t. parent position and paragraph will come under the div*/
+/*#inner-div2{
+	width: 200px;
+	height: 200px;
+	background-color: red;
+	position: absolute;
+	left: 20px;
+	top: 20px;
+}*/
+
+/*Position - 4*/
+/*Div2 content will scroll along the whole page: as if floating*/
+/*#inner-div2{
+	width: 200px;
+	height: 200px;
+	background-color: red;
+	position: fixed;
+	left: 20px;
+	top: 20px;
+}*/
+
+/*Position - 5*/
+/*Div2 content will scroll along the scope of parent/container. i.e., Outer-div1: as if floating*/
+#inner-div2{
+	width: 200px;
+	height: 200px;
+	background-color: red;
+	position: sticky;
+	left: 20px;
+	top: 20px;
+}
+
+
+
+#inner-div3{
+	width: 200px;
+	height: 200px;
+	background-color: blue;
+}

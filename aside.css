@@ -1,0 +1,62 @@
+main{
+	display: inline-block;
+	width: 75%;
+}
+main .autor-content{
+	background-color: cyan;
+	width: 200px;
+	height: 2000px;
+	color: black;
+	padding: 40px;
+	display: inline-block;
+	vertical-align: top;
+	margin: 10px;
+
+
+}
+main .main-content{
+	background-color: orange;
+	width: 450px;
+	height: 2000px;
+	color: black;
+	padding: 40px;
+	display: inline-block;
+	vertical-align: top;
+	margin: 10px;
+
+}
+
+aside{
+	display: inline-block;
+	width: 20%;
+	vertical-align: top;
+	position: fixed;
+}
+
+.widget{
+	border-top: 4px solid black;
+	border-bottom: 2px solid black;
+}
+
+.autor-content{
+	display: inline-block;
+	width: 10%%;
+}
+
+.widget label{
+	display: block;
+	line-height: 1.3rem;
+}
+.widget .button-submit{
+	display: block;
+	line-height: 1.3rem;
+	margin: 10px;
+}
+
+.widget input{
+	padding: 5px;
+}
+
+.widget .button-submit:hover{
+	color: orange;
+}

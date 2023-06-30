@@ -1,0 +1,25 @@
+p{
+	font-size: 30px;
+	color: blue;
+	font-weight: bold;
+/*	/bolder/100 to 900*/
+	
+	line-height: 40px;
+
+	text-align: left;
+	text-transform: capitalize;
+	text-decoration: overline;
+
+	word-spacing: 1.5rem;
+
+}
+
+#sample-div{
+	width: 100vw;
+	height: 100vh;
+	background-image: url("../HTML/Basics/Media/2mMfhK.jpg"), url("../HTML/Basics/Media/logo.png"); /*we can add multiple image urls to the background image*/
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+}

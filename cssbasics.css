@@ -1,0 +1,15 @@
+p{
+	color: green;
+	font-size: 50px;
+}
+.uppercase{
+	text-transform: uppercase;
+	color: orange;
+}
+.txtpattern{
+	font-family: cursive;
+}
+#id-style{
+	background-color: blue;
+	color: white;
+}

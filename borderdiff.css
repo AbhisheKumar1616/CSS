@@ -1,0 +1,11 @@
+#Border-div{
+	height: 40vh;
+	width: 40vw;
+	background-color: cyan;
+	border-width: 8px 3px;
+	border-style: dotted;
+	border-color: black;
+	border-bottom-left-radius: 15% ;
+	border-top-right-radius: 15% ;
+	padding: 1.55rem;
+}
